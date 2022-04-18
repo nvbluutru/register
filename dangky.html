@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <form action="" class="form" autocomplete="off">
+            <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+            <p class="message"></p>
+            <input type="text" class="form__input" id="code" placeholder="Mã SV">
+            <input type="text" class="form__input" id="fullName" placeholder="Họ Tên">
+            <div class="form__control" id="gender_form">
+                <label for="">Giới tính</label>
+                <div><input type="radio" name="gender" checked> Nam</div>
+                <div><input type="radio" name="gender"> Nữ</div>
+            </div>
+            <div class="form__control" id="interests_form">
+                <label for="">Sở thích</label>
+                <div><input type="checkbox" name="interests"> Nhìn mưa rơi</div>
+                <div><input type="checkbox" name="interests"> Nghe chim hót</div>
+                <div><input type="checkbox" name="interests"> Ngắm mây bay</div>
+            </div>
+            <select id="province">
+                <option value="">Chọn tỉnh</option>
+                <option value="1">Hồ chí minh</option>
+                <option value="2">Ninh thuận</option>
+            </select>
+            <button class="form__submit">ĐĂNG KÝ</button>
+        </form>
+        <script src="./main.js"></script>
+</body>
+</html>
